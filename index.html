@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Lincoln</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+
+</header>
+<body>
+    <section id="mainpage">
+    <div class="midias_sociais"><a href="https://www.linkedin.com/in/lincoln-sales/"><img src="img/mingcute_linkedin-fill.png" alt=""></a><a href="mailto:lincoln.sales.goncalves1@gmail.com"><img src="img/tabler_mail-filled.png" alt=""></a><a href="https://github.com/LincolnSalesGoncalves"><img src="img/mdi_github.png" alt=""></a></div>
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>      
+    <div id="maintitulo"><text>00.</text>Lincoln<br>Sales</div>
+    <img id="logo" src="img/logo_dark.png" alt="">
+    <button id="lightmodebtt" onclick="lightmode()"></button>
+    <div id="navcontainer">
+        <a class="active" href="#mainpage">.....</a>
+        <a href="#aboutme">.....</a>
+        <a href="#skills">.....</a>
+        <a href="#Certificados">.....</a>
+        <a href="#projects">.....</a>
+        <a href="#contato">.....</a>
+    </div>
+    </section>
+    <section id="aboutme">
+        <img src="img/Group 11.png" alt="">
+        <div id="sobremimcontainer">
+        <div id="sobremimtitle"><text>01.</text>About_Me</div>
+        <div id="sobremimtext">Lorem Ipsum is simply dummy text
+            of the printing and typesetting
+            industry. Lorem Ipsum has been
+            the industry's standard dummy
+            text ever since the 1500s, when
+            an unknown printer took a galley
+            of type and scrambled it to make</div>  
+        </div>
+    </section>
+    <section id="skills">
+        <div class="titulo"><text>02.</text>Skills</div>
+        <div class="gridcontainer">
+            <div><img id="html" src="img/html.png" alt=""></div>
+            <div><img id="css" src="img/css.png" alt=""></div>
+            <div><img id="js" src="img/js.png" alt=""></div>
+            <div><img id="ui" src="img/ui.png" alt=""></div>
+            <div><img id="c" src="img/c.png" alt=""></div>
+            <div><img id="sql" src="img/sql.png" alt=""></div>
+            <div><img id="mysql" src="img/mysql.png" alt=""></div>
+            <div><img id="python" src="img/python.png" alt=""></div>
+            <div><img id="linux" src="img/linux.png" alt=""></div>
+            <div><img id="manutenção" src="img/manutencao.png" alt=""></div>
+            <div><img id="" src="" alt=""></div>
+            <div><img id="" src="" alt=""></div>
+        </div>
+    </section>
+    <section id="Certificados">
+        <img id="projectsimg" src="" alt="">
+        <div id="containerprojetos">
+        <div class="projectcertificadostitle"><text>04.</text>Projetos<hr></div>
+        <div id="pjt1" class="projectcertificadostext" onclick="pjt1()">projeto1<hr></div>
+        <div id="pjt2" class="projectcertificadostext" onclick="pjt2()">projeto2<hr></div>
+        <div id="pjt3" class="projectcertificadostext" onclick="pjt3()">projeto3<hr></div>
+        <div id="pjt4" class="projectcertificadostext" onclick="pjt4()">projeto4<hr></div>
+        </div>
+    </section> 
+   <section id="projects">
+    <div id="containercertificados">
+    <div class="projectcertificadostitle"><text>04.</text>Certificados<hr></div>
+    <div id="cert1" class="projectcertificadostext" onclick="cert1()">Certificado1<hr></div>
+    <div id="cert2" class="projectcertificadostext" onclick="cert2()">Certificado3<hr></div>
+    <div id="cert3" class="projectcertificadostext" onclick="cert3()">Certificado3<hr></div>
+    <div id="cert4" class="projectcertificadostext" onclick="cert4()">Certificado4<hr></div>
+    </div>
+    <img src="" alt="" id="certificadosimg">
+   </section>
+   <section id="contato">
+    <div id="contacttitle"><text>05.</text>Contato <hr></div>
+    <form id="formscontainer" action="https://api.web3forms.com/submit" method="POST">
+
+        <!-- Replace with your Access Key -->
+        <input type="hidden" name="access_key" value="d3aa447d-005c-4c94-b73e-7dd6647f976c">
+    
+        <!-- Form Inputs. Each input must have a name="" attribute -->
+        <input class="form" type="text" name="name" placeholder="insira seu Nome" required>
+        <input class="form" type="email" name="email" placeholder="insira seu email" required>
+        <textarea id="textareaexpand" class="form" oninput="textareasize(this)" rows="4" cols="5" name="message" placeholder="insira a mensagem" required></textarea>
+    
+        <!-- Honeypot Spam Protection -->
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+    
+
+        <input type="hidden" name="redirect" href="tnx.html">
+    
+        <button id="mensagem" type="submit" >enviar</button>
+    
+    </form>
+   </section>
+   <script src="javascript.js"></script>
+</body>
+<footer>
+    <div><img src="img/tabler_mail-filled.png" alt=""> lincoln.sales.goncalves1@gmail.com</div>
+</footer>
+</html>
